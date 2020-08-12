@@ -141,8 +141,7 @@ let activNum = 0;
   }, 3* 1000);
 
 
-client.login('NTQxNDA0NjEyMTUwNjg5ODEy.Xuf7kg.cLTKF4lH_suB9tVjvpsqiSYavzU')
-const tok = "NTQxNDA0NjEyMTUwNjg5ODEy.Xuf7kg.cLTKF4lH_suB9tVjvpsqiSYavzU"
+client.login(process.env.token)
 //Státusz jelzés vége ----------------------------------------------------
 //client.user.setActivity("🔵 The Chat 🔴", {type: "WATCHING"});
 //parancsok ------------------------------------------------------------
