@@ -1,16 +1,16 @@
 {
-  "name": "háp-háp",
+  "name": "s",
   "version": "1.0.0",
   "description": "Ez egy szar",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Szabii",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.6.4",
     "discord.js-commando": "^0.10.0",
-    "moment": "^2.25.3",
+    "moment": "^2.25.3"
   }
 }
