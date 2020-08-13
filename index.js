@@ -15,6 +15,10 @@ var client = new commando.Client ({
 
 
 
+client.on('message', message => {
+  if (message.content === '%f') return message.reply('Igen')
+})
+
 //igaz hamis
 client.on("message", message => {
 if (message.content.toLowerCase().startsWith("ih")) {
@@ -145,7 +149,6 @@ client.login(process.env.token)
 //Státusz jelzés vége ----------------------------------------------------
 //client.user.setActivity("🔵 The Chat 🔴", {type: "WATCHING"});
 //parancsok ------------------------------------------------------------
-
 
 client.on("message", message => {
   if (message.content.toLowerCase() === prefix + 'parancsok') {
