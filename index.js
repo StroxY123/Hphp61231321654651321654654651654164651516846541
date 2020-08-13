@@ -13,11 +13,7 @@ var client = new commando.Client ({
 
 });
 
-
-
-client.on('message', message => {
-  if (message.content === '%f') return message.reply('Igen')
-})
+process.setMaxListeners(0);
 
 //igaz hamis
 client.on("message", message => {
