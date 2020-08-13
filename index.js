@@ -410,6 +410,7 @@ const botembed = new discord.RichEmbed()
 .addField("Bot név:", client.user.username)
 .addField("Bot létrehozásának a napja:", moment(client.user.createdAt).format('YYYY. MMMM. DD. LTS'))
 .addField("Szerverek:", client.guilds.size)
+.addField("Bot futása:", "VPN")
 .addField("A parancsot használta:",`${message.author.toString()}`) 
 message.channel.send(botembed).then(async msg => {
   message.delete();
