@@ -663,7 +663,7 @@ message.channel.send(embed).then(async msg => {
 client.on('message', message => {
   if (message.content.startsWith(`${prefix}uptime`)) {
   const upembed = new discord.RichEmbed()
-    let uptimesec = (bot.uptime / 3600);
+    let uptimesec = (client.uptime / 3600);
     let uptimehours = Math.floor(uptimesec / 3600);
     let uptimeDays = Math.floor(uptimesec / 86400);
 
