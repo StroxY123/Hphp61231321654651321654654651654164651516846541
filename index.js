@@ -127,7 +127,7 @@ client.on("ready", () => {
     client.user.setActivity("📈The Chat📉", {type: "WATCHING"});
 });
 //Státusz jelzés ---------------------------------------------------------
-
+/*
 let activNum = 0;
 
   setInterval(function() {
@@ -140,7 +140,7 @@ let activNum = 0;
     }
   }, 3* 1000);
 
-
+*/
 client.login(process.env.token)
 //Státusz jelzés vége ----------------------------------------------------
 //client.user.setActivity("🔵 The Chat 🔴", {type: "WATCHING"});
